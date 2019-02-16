@@ -34,7 +34,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "@enso-ui/bulma": "^1.0.0",
+    "@enso-ui/modal": "^1.0.0",
     "@enso-ui/progress-bar": "^1.0.0",
     "@enso-ui/tabs": "^1.0.0",
     "@enso-ui/toastr": "^1.0.0",
