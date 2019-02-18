@@ -6,8 +6,15 @@ import Toastr from '@enso-ui/toastr/bulma';
 import ToastrPlugin from '@enso-ui/toastr';
 import Typeahead from '@enso-ui/typeahead/bulma';
 import VueSwitch from '@enso-ui/switch/bulma';
+import {
+    IntervalFilter, DateFilter, DateIntervalFilter,
+    EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
+} from '@enso-ui/filters/bulma';
+
 
 export {
     Datepicker, Modal, ModalCard, ProgressBar, Tab, Tabs,
     EnsoTabs, Toastr, ToastrPlugin, Typeahead, VueSwitch,
+    IntervalFilter, DateFilter, DateIntervalFilter,
+    EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
 };
