@@ -609,6 +609,19 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@enso-ui/datepicker@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@enso-ui/datepicker/-/datepicker-1.0.1.tgz#179d94bcbc6f6185a492b83b35aa53671a616de2"
+  integrity sha512-pQb1l6/dlg5CDVdSx1lr5FfichrsRtY/OtwhK4jcomZbnSQQfrzbcL3FraYp135QM8ng7Vl7zvmv96KLuEbWkQ==
+  dependencies:
+    "@fortawesome/fontawesome-free" "^5.2.0"
+    "@fortawesome/fontawesome-svg-core" "^1.2.2"
+    "@fortawesome/free-solid-svg-icons" "^5.2.0"
+    "@fortawesome/vue-fontawesome" "^0.1.1"
+    bulma "^0.7.2"
+    flatpickr "^4.5.0"
+    vue "^2.5.16"
+
 "@enso-ui/modal@^1.0.0":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@enso-ui/modal/-/modal-1.0.2.tgz#619366a4fe726b33d90e646643ce1d9616b2ec03"
@@ -636,9 +649,9 @@
     vue "^2.5.16"
 
 "@enso-ui/toastr@^1.0.0":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@enso-ui/toastr/-/toastr-1.0.14.tgz#db16022fde531e6bb60b7d4aa48f55f9ebdc73f9"
-  integrity sha512-V7ArBtbJAjCN7FjgVRQPT4voqzcP1ZY+2k4DT/1xh9338QkjX03k1TCLsO1F2DC1bsAteVdkhZaO7D34+fZqXA==
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@enso-ui/toastr/-/toastr-1.0.18.tgz#297fd53977bc8157c978ff48aebce351a589b1c4"
+  integrity sha512-l0rCL3YKenRRaenvyw4R7xMMmu2Ua6ExhGuSoZiBCgwpc/TFrz919Gj+ODWHT+/gzfhBDhOI14OsLhSkxlp4XA==
   dependencies:
     "@enso-ui/progress-bar" "^1.0.0"
     "@fortawesome/fontawesome-free" "^5.2.0"
@@ -1548,16 +1561,6 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-table3@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.5.1.tgz#0252372d94dfc40dbd8df06005f48f31f656f202"
-  integrity sha512-7Qg2Jrep1S/+Q3EceiZtQcDPWxhAvBw+ERf1162v4sikJrvojMHFqXt8QIVha8UlH9rgU0BeWPytZ9/TzYqlUw==
-  dependencies:
-    object-assign "^4.1.0"
-    string-width "^2.1.1"
-  optionalDependencies:
-    colors "^1.1.2"
-
 cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
@@ -1671,11 +1674,6 @@ colormin@^1.0.5:
     color "^0.11.0"
     css-color-names "0.0.4"
     has "^1.0.1"
-
-colors@^1.1.2:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.3.3.tgz#39e005d546afe01e01f9c4ca8fa50f686a01205d"
-  integrity sha512-mmGt/1pZqYRjMxB1axhTo16/snVZ5krrKkcmMeVKxzECMMXoCgnvTPp10QgHfcbQZw8Dq2jMNG6je4JlWU0gWg==
 
 colors@~1.1.2:
   version "1.1.2"
@@ -3056,6 +3054,11 @@ flat-cache@^2.0.1:
     flatted "^2.0.0"
     rimraf "2.6.3"
     write "1.0.3"
+
+flatpickr@^4.5.0:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.5.2.tgz#47c8ad472a096e5fb7e74b809b0703535383f20d"
+  integrity sha512-jDy4QYGpmiy7+Qk8QvKJ4spjDdxcx9cxMydmq1x427HkKWBw0qizLYeYM2F6tMcvvqGjU5VpJS55j4LnsaBblA==
 
 flatted@^2.0.0:
   version "2.0.0"
@@ -6221,13 +6224,9 @@ regex-parser@^2.2.9:
   integrity sha512-8t6074A68gHfU8Neftl0Le6KTDwfGAj7IyjPIMSfikI2wJUTHDMaIq42bUsfVnj8mhx0R+45rdUXHGpN164avA==
 
 regexp-tree@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/regexp-tree/-/regexp-tree-0.1.1.tgz#27b455f9b138ca2e84c090e9aff1ffe2a04d97fa"
-  integrity sha512-HwRjOquc9QOwKTgbxvZTcddS5mlNlwePMQ3NFL8broajMLD5CXDAqas8Y5yxJH5QtZp5iRor3YCILd5pz71Cgw==
-  dependencies:
-    cli-table3 "^0.5.0"
-    colors "^1.1.2"
-    yargs "^12.0.5"
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/regexp-tree/-/regexp-tree-0.1.4.tgz#b8b231ba3dc5680f8540c2b9526d3dc46f0278e1"
+  integrity sha512-DohP6WXzgrc7gFs9GsTQgigUfMXZqXkPk+20qkMF6YCy0Qk0FsHL1/KtxTycGR/62DHRtJ1MHQF2g8YzywP4kA==
 
 regexpp@^2.0.1:
   version "2.0.1"
@@ -7872,7 +7871,7 @@ yargs@6.6.0:
     y18n "^3.2.1"
     yargs-parser "^4.2.0"
 
-yargs@^12.0.4, yargs@^12.0.5:
+yargs@^12.0.4:
   version "12.0.5"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-12.0.5.tgz#05f5997b609647b64f66b81e3b4b10a368e7ad13"
   integrity sha512-Lhz8TLaYnxq/2ObqHDql8dX8CJi97oHxrjUcYtzKbbykPtVW9WB+poxI+NM2UIzsMgNCZTIf0AQwsjK5yMAqZw==
