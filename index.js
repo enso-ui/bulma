@@ -8,7 +8,8 @@ import Typeahead from '@enso-ui/typeahead/bulma';
 import VueSwitch from '@enso-ui/switch/bulma';
 import {
     IntervalFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
-    EnsoDateFilter, EnsoDateIntervalFilter, VueFilter, EnsoVueFilter,
+    EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
+    EnsoVueFilter,
 } from '@enso-ui/filters/bulma';
 
 
@@ -16,5 +17,5 @@ export {
     Datepicker, Modal, ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr,
     ToastrPlugin, Typeahead, VueSwitch, IntervalFilter, DateFilter,
     DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
-    EnsoDateIntervalFilter, VueFilter, EnsoVueFilter,
+    EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter,
 };
