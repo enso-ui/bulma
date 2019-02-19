@@ -1,4 +1,5 @@
 import Datepicker from '@enso-ui/datepicker/bulma';
+import Loader from '@enso-ui/loader';
 import { Modal, ModalCard } from '@enso-ui/modal/bulma';
 import ProgressBar from '@enso-ui/progress-bar';
 import { Tab, Tabs, EnsoTabs } from '@enso-ui/tabs/bulma';
@@ -14,8 +15,8 @@ import {
 
 
 export {
-    Datepicker, Modal, ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr,
-    ToastrPlugin, Typeahead, VueSwitch, IntervalFilter, DateFilter,
+    Datepicker, Loader, Modal, ModalCard, ProgressBar, Tab, Tabs, EnsoTabs,
+    Toastr, ToastrPlugin, Typeahead, VueSwitch, IntervalFilter, DateFilter,
     DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
     EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter,
 };
