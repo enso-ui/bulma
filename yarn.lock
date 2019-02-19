@@ -609,10 +609,21 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@enso-ui/card@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.0.tgz#309911127d4fbd407f42fc76852295eadcfb8715"
+  integrity sha512-5pneQgeAa/1It4cbAkFHvplK1FXNugBY71SOFKt/GvQf6O3X9vEMmuBqCnsdW4F3Tur/ez+X76d9OHYHilG2RQ==
+  dependencies:
+    "@enso-ui/loader" "^1.0.0"
+    "@fortawesome/fontawesome-svg-core" "^1.2.2"
+    "@fortawesome/free-solid-svg-icons" "^5.2.0"
+    bulma "^0.7.2"
+    vue "^2.5.16"
+
 "@enso-ui/datepicker@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@enso-ui/datepicker/-/datepicker-1.0.1.tgz#179d94bcbc6f6185a492b83b35aa53671a616de2"
-  integrity sha512-pQb1l6/dlg5CDVdSx1lr5FfichrsRtY/OtwhK4jcomZbnSQQfrzbcL3FraYp135QM8ng7Vl7zvmv96KLuEbWkQ==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@enso-ui/datepicker/-/datepicker-1.0.2.tgz#347b8af43aaa5b6591a16eb426e4f0d2247a5c7e"
+  integrity sha512-nUqgNcRXEmeo7xfoUE2SAO8N5Cg4xFX3WK6PMRuNU9y494t59OhWQw8Sn/Z9h1IVbmVLF5+lOOvnLLqOywp7rw==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.2.0"
     "@fortawesome/fontawesome-svg-core" "^1.2.2"
@@ -623,9 +634,9 @@
     vue "^2.5.16"
 
 "@enso-ui/filters@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enso-ui/filters/-/filters-1.0.0.tgz#4b1ecca0e81fb57af29cc9f4bfa65fcaf0a5780a"
-  integrity sha512-1D2MHK2WawZXMtlTBFppronjCuR4O6KA81Hmn6sQ57KOcBayBoMbALuPyL7f6ggkslPc75CIYBsGqTCRlsGAbw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@enso-ui/filters/-/filters-1.0.3.tgz#bc685c91b0032a11a64302966f910146ca6aa999"
+  integrity sha512-siDDvai835WmVB1aPMp1iXwWrl2dDjoWiNJAtO8MqrTl8VQlLGF+mrqgvFc8sKjYtqASeUVCUeQMrhhnEpTg1w==
   dependencies:
     "@enso-ui/datepicker" "^1.0.0"
     "@enso-ui/transitions" "^1.0.0"
@@ -637,6 +648,15 @@
     v-tooltip "^2.0.0-rc.32"
     vue "^2.5.16"
     vuex "^3.0.0"
+
+"@enso-ui/loader@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@enso-ui/loader/-/loader-1.0.0.tgz#dbf58c49fb98fa4c1cd524ae0f39ac6349611c1a"
+  integrity sha512-BpOcAdFfgWR7gy92SL6HqNljLHuh9yIaWHf2hI6OeAZsY6Ldmk+TRNs12lT0Nhs0icyxVOvEzLmtjp14Tl5gtg==
+  dependencies:
+    "@enso-ui/transitions" "^1.0.0"
+    bulma "^0.7.2"
+    vue "^2.5.16"
 
 "@enso-ui/modal@^1.0.0":
   version "1.0.2"
@@ -687,18 +707,17 @@
     vue "^2.5.16"
 
 "@enso-ui/transitions@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enso-ui/transitions/-/transitions-1.0.0.tgz#82067365a157c031473928732b4452d04398293d"
-  integrity sha512-o2sI4itzTp27X/GZqVUym9Fph7wEUYXzRf3Y/pYkmpz24zjwoTl1CXgmd9sPOX7TCAViI5OH2DCZhTiGB/72kg==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@enso-ui/transitions/-/transitions-1.0.3.tgz#321debc083a3a9abd0170f417b3e02f9cf33cae9"
+  integrity sha512-pAY0P7RDmNUf8rbV0KaLnMXbMpQBbG0Iz8B9mqsK3QCZpPA9AdVN1jK0EaOpFvD5st10jXOJlye91Fz+7UuTdg==
   dependencies:
     animate.css "^3.6.1"
-    bulma "^0.7.2"
     vue "^2.5.16"
 
 "@enso-ui/typeahead@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enso-ui/typeahead/-/typeahead-1.0.0.tgz#182cf86d6c9fad49d0a5f55e7b6e3c3e2c299d49"
-  integrity sha512-gWhlrhjhXfM4JGpvmrFq6b7i00H61NO96dOQdaZSPRe6Jq4z9gj/SsljKpTfnZuexxBWxXTHOkaWpw1fIgmfQA==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@enso-ui/typeahead/-/typeahead-1.0.1.tgz#acc9350580c9cc87cd0ed21d575ed36a3c936c40"
+  integrity sha512-2hvChxxiadxgLwIopxiZC0bpn/KS7hi0EP+2XuyIj2pj4ECBVDP5FJCEUo7SScgcrM6JAcXeh+FBh6v5IlygSg==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.2"
     "@fortawesome/free-solid-svg-icons" "^5.2.0"
@@ -1523,9 +1542,9 @@ charenc@~0.0.1:
   integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
 
 chokidar@^2.0.0, chokidar@^2.0.2, chokidar@^2.0.3:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.1.tgz#adc39ad55a2adf26548bd2afa048f611091f9184"
-  integrity sha512-gfw3p2oQV2wEt+8VuMlNsPjCxDxvvgnm/kz+uATu805mWVF8IJN7uz9DN7iBz+RMJISmiVbCOBFs9qBGMjtPfQ==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.2.tgz#9c23ea40b01638439e0513864d362aeacc5ad058"
+  integrity sha512-IwXUx0FXc5ibYmPC2XeEj5mpXoV66sR+t3jqu2NS2GYwCktt3KF1/Qqjws/NkegajBA4RbZ5+DDwlOiJsxDHEg==
   dependencies:
     anymatch "^2.0.0"
     async-each "^1.0.1"
@@ -1732,11 +1751,11 @@ component-emitter@^1.2.1:
   integrity sha1-E3kY1teCg/ffemt8WmPhQOaUJeY=
 
 compressible@~2.0.14:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/compressible/-/compressible-2.0.15.tgz#857a9ab0a7e5a07d8d837ed43fe2defff64fe212"
-  integrity sha512-4aE67DL33dSW9gw4CI2H/yTxqHLNcxp0yS6jB+4h+wr3e43+1z7vm0HU9qXOH8j+qjKuL8+UtkOxYQSMq60Ylw==
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/compressible/-/compressible-2.0.16.tgz#a49bf9858f3821b64ce1be0296afc7380466a77f"
+  integrity sha512-JQfEOdnI7dASwCuSPWIeVYwc/zMsu/+tRhoUvEfXz2gxOA2DNjmG5vhtFdBlhWPPGo+RdT9S3tgc/uH5qgDiiA==
   dependencies:
-    mime-db ">= 1.36.0 < 2"
+    mime-db ">= 1.38.0 < 2"
 
 compression@^1.5.2:
   version "1.7.3"
@@ -2581,9 +2600,9 @@ eslint-plugin-import@^2.14.0:
     resolve "^1.9.0"
 
 eslint-plugin-vue@^5.0.0:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-5.2.1.tgz#89795895c08da56fe3a201955bd645ae67e01918"
-  integrity sha512-KPrv7Yau1B7PUB+TiEh0bw1lyzQjLp0npfAn7WbkQQFobgwXv4LqmQFBhYXEdXmxSBU/oZ46yBHoTo70RRivUA==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-5.2.2.tgz#86601823b7721b70bc92d54f1728cfc03b36283c"
+  integrity sha512-CtGWH7IB0DA6BZOwcV9w9q3Ri6Yuo8qMjx05SmOGJ6X6E0Yo3y9E/gQ5tuNxg2dEt30tRnBoFTbvtmW9iEoyHA==
   dependencies:
     vue-eslint-parser "^5.0.0"
 
@@ -2619,9 +2638,9 @@ eslint-visitor-keys@^1.0.0:
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
 eslint@^5.0.1:
-  version "5.14.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.14.0.tgz#380739df2489dd846baea008638b036c1e987974"
-  integrity sha512-jrOhiYyENRrRnWlMYANlGZTqb89r2FuRT+615AabBoajhNjeh9ywDNlh2LU9vTqf0WYN+L3xdXuIi7xuj/tK9w==
+  version "5.14.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.14.1.tgz#490a28906be313685c55ccd43a39e8d22efc04ba"
+  integrity sha512-CyUMbmsjxedx8B0mr79mNOqetvkbij/zrXnFeK2zc3pGRn3/tibjiNAv/3UxFEyfMDjh+ZqTrJrEGBFiGfD5Og==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.9.1"
@@ -4733,7 +4752,7 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
-"mime-db@>= 1.36.0 < 2", mime-db@~1.38.0:
+"mime-db@>= 1.38.0 < 2", mime-db@~1.38.0:
   version "1.38.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.38.0.tgz#1a2aab16da9eb167b49c6e4df2d9c68d63d8e2ad"
   integrity sha512-bqVioMFFzc2awcdJZIzR3HjZFX20QhilVS7hytkKrv7xFAn8bM1gzc/FOX2awLISvWe0PV8ptFKcon+wZ5qYkg==
@@ -6089,9 +6108,9 @@ randomatic@^3.0.0:
     math-random "^1.0.1"
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.0.6.tgz#d302c522948588848a8d300c932b44c24231da80"
-  integrity sha512-CIQ5OFxf4Jou6uOKe9t1AOgqpeU5fd70A8NPdHSGeYXqXsPe6peOwI0cUl88RWZ6sP1vPMV3avd/R6cZ5/sP1A==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
+  integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
   dependencies:
     safe-buffer "^5.1.0"
 
@@ -6263,9 +6282,9 @@ regex-parser@^2.2.9:
   integrity sha512-8t6074A68gHfU8Neftl0Le6KTDwfGAj7IyjPIMSfikI2wJUTHDMaIq42bUsfVnj8mhx0R+45rdUXHGpN164avA==
 
 regexp-tree@^0.1.0:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/regexp-tree/-/regexp-tree-0.1.4.tgz#b8b231ba3dc5680f8540c2b9526d3dc46f0278e1"
-  integrity sha512-DohP6WXzgrc7gFs9GsTQgigUfMXZqXkPk+20qkMF6YCy0Qk0FsHL1/KtxTycGR/62DHRtJ1MHQF2g8YzywP4kA==
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/regexp-tree/-/regexp-tree-0.1.5.tgz#7cd71fca17198d04b4176efd79713f2998009397"
+  integrity sha512-nUmxvfJyAODw+0B13hj8CFVAxhe7fDEAgJgaotBu3nnR+IgGgZq59YedJP5VYTlkEfqjuK6TuRpnymKdatLZfQ==
 
 regexpp@^2.0.1:
   version "2.0.1"

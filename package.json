@@ -34,6 +34,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
+    "@enso-ui/card": "^1.0.0",
     "@enso-ui/datepicker": "^1.0.0",
     "@enso-ui/filters": "^1.0.0",
     "@enso-ui/loader": "^1.0.0",
@@ -42,6 +43,7 @@
     "@enso-ui/switch": "^1.0.0",
     "@enso-ui/tabs": "^1.0.0",
     "@enso-ui/toastr": "^1.0.0",
+    "@enso-ui/transitions": "^1.0.0",
     "@enso-ui/typeahead": "^1.0.0"
   }
 }
