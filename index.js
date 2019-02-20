@@ -6,7 +6,7 @@ import {
 
 import Datepicker from '@enso-ui/datepicker/bulma';
 
-import Dropdown from '@enso-ui/dropdown';
+import Dropdown from '@enso-ui/dropdown/bulma';
 
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 

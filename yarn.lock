@@ -610,10 +610,11 @@
     to-fast-properties "^2.0.0"
 
 "@enso-ui/card@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.0.tgz#309911127d4fbd407f42fc76852295eadcfb8715"
-  integrity sha512-5pneQgeAa/1It4cbAkFHvplK1FXNugBY71SOFKt/GvQf6O3X9vEMmuBqCnsdW4F3Tur/ez+X76d9OHYHilG2RQ==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.2.tgz#8415bdf55a6d3c2f85d86997f9ca283c712ebc2c"
+  integrity sha512-sP4G2FR/tBWgn7jpOxyFGvnn2HcnkjhsKyYHOUD7ADhKxG1uy3SJqo2TlGu9XrcfFztoGsLrmbU36jZBWNErEw==
   dependencies:
+    "@enso-ui/dropdown-indicator" "^1.0.0"
     "@enso-ui/loader" "^1.0.0"
     "@fortawesome/fontawesome-svg-core" "^1.2.2"
     "@fortawesome/free-solid-svg-icons" "^5.2.0"
@@ -644,9 +645,9 @@
     vue "^2.5.16"
 
 "@enso-ui/dropdown@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enso-ui/dropdown/-/dropdown-1.0.0.tgz#194164b8c6babcf97475efc9b65b96cd02a9b377"
-  integrity sha512-emXW5uEb48RMBVQPM+1EF/GR+8o6uKsCxos56CY8Kk/6LUzTCkX9Qr9YB5gUPKEJaaaNK6LhqZF96ZmZr2HitQ==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@enso-ui/dropdown/-/dropdown-1.0.3.tgz#bee982cda8012ce70b518ce57a83009e4750a8bf"
+  integrity sha512-zawgXBoSOlCBjvnJIcxJ5G+9IrWGYL2z7a480F0lYvKnZNwp3Q8ulD/fgBrb4f787YfHUpWHNKKKkyeuViHGXA==
   dependencies:
     "@enso-ui/dropdown-indicator" "^1.0.0"
     "@enso-ui/transitions" "^1.0.0"
@@ -5063,9 +5064,9 @@ node-pre-gyp@^0.10.0:
     tar "^4"
 
 node-releases@^1.1.3:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.7.tgz#b09a10394d0ed8f7778f72bb861dde68b146303b"
-  integrity sha512-bKdrwaqJUPHqlCzDD7so/R+Nk0jGv9a11ZhLrD9f6i947qGLrGAhU3OxRENa19QQmwzGy/g6zCDEuLGDO8HPvA==
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.8.tgz#32a63fff63c5e51b7e0f540ac95947d220fc6862"
+  integrity sha512-gQm+K9mGCiT/NXHy+V/ZZS1N/LOaGGqRAAJJs3X9Ah1g+CIbRcBgNyoNYQ+SEtcyAtB9KqDruu+fF7nWjsqRaA==
   dependencies:
     semver "^5.3.0"
 
@@ -5152,9 +5153,9 @@ npm-bundled@^1.0.1:
   integrity sha512-8/JCaftHwbd//k6y2rEWp6k1wxVfpFzB6t1p825+cUb7Ym2XQfhwIC5KwhrvzZRJu+LtDE585zVaS32+CGtf0g==
 
 npm-packlist@^1.1.6:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.3.0.tgz#7f01e8e44408341379ca98cfd756e7b29bd2626c"
-  integrity sha512-qPBc6CnxEzpOcc4bjoIBJbYdy0D/LFFPUdxvfwor4/w3vxeE0h6TiOVurCEPpQ6trjN77u/ShyfeJGsbAfB3dA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.0.tgz#b2c0867af2a396e0734343d2b6b3f7934db935f2"
+  integrity sha512-zCAmKshsFx2MhOsXdYmZd1DO2d8ts80kVASSWX6lv8654i0edCnNCoEqwVsMygl1BSroCPW6Zh5Dcw+ann775g==
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
