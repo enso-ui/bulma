@@ -6,6 +6,8 @@ import {
 
 import Datepicker from '@enso-ui/datepicker/bulma';
 
+import DropdownIndicator from '@enso-ui/dropdown-indicator';
+
 import Loader from '@enso-ui/loader';
 
 import { Modal, ModalCard } from '@enso-ui/modal/bulma';
@@ -30,7 +32,7 @@ import {
 } from '@enso-ui/filters/bulma';
 
 export {
-    Card, CardHeader, CardContent, CardImage, CardFooter,
+    DropdownIndicator, Card, CardHeader, CardContent, CardImage, CardFooter,
     CardFooterItem, CardControl, CardBadge, CardCollapse,
     CardRefresh, CardRemove, Datepicker, Loader, Modal,
     ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr,

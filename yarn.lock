@@ -633,6 +633,16 @@
     flatpickr "^4.5.0"
     vue "^2.5.16"
 
+"@enso-ui/dropdown-indicator@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@enso-ui/dropdown-indicator/-/dropdown-indicator-1.0.0.tgz#3d04e4eb827a170560dd53a98109b373a6f17663"
+  integrity sha512-HwvpxnLmdjhc3zsg3scfm8I7y46oVgX16w3Ofe0iIfpk6Zsr+kfjgfKYzOO2BZRsDAJtJHGA6XH35NMJ+i83Dg==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.2"
+    "@fortawesome/free-solid-svg-icons" "^5.2.0"
+    "@fortawesome/vue-fontawesome" "^0.1.1"
+    vue "^2.5.16"
+
 "@enso-ui/filters@^1.0.0":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@enso-ui/filters/-/filters-1.0.3.tgz#bc685c91b0032a11a64302966f910146ca6aa999"
