@@ -643,6 +643,16 @@
     "@fortawesome/vue-fontawesome" "^0.1.1"
     vue "^2.5.16"
 
+"@enso-ui/dropdown@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@enso-ui/dropdown/-/dropdown-1.0.0.tgz#194164b8c6babcf97475efc9b65b96cd02a9b377"
+  integrity sha512-emXW5uEb48RMBVQPM+1EF/GR+8o6uKsCxos56CY8Kk/6LUzTCkX9Qr9YB5gUPKEJaaaNK6LhqZF96ZmZr2HitQ==
+  dependencies:
+    "@enso-ui/dropdown-indicator" "^1.0.0"
+    "@enso-ui/transitions" "^1.0.0"
+    v-click-outside "^1.0.5"
+    vue "^2.5.16"
+
 "@enso-ui/filters@^1.0.0":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@enso-ui/filters/-/filters-1.0.3.tgz#bc685c91b0032a11a64302966f910146ca6aa999"
@@ -7546,6 +7556,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+v-click-outside@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/v-click-outside/-/v-click-outside-1.0.5.tgz#3eb590394e062fa9a4256cbe678600557f7c87d4"
+  integrity sha1-PrWQOU4GL6mkJWy+Z4YAVX98h9Q=
 
 v-tooltip@^2.0.0-rc.32:
   version "2.0.0-rc.33"

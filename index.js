@@ -6,6 +6,8 @@ import {
 
 import Datepicker from '@enso-ui/datepicker/bulma';
 
+import Dropdown from '@enso-ui/dropdown';
+
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 
 import Loader from '@enso-ui/loader';
@@ -32,11 +34,11 @@ import {
 } from '@enso-ui/filters/bulma';
 
 export {
-    DropdownIndicator, Card, CardHeader, CardContent, CardImage, CardFooter,
-    CardFooterItem, CardControl, CardBadge, CardCollapse,
-    CardRefresh, CardRemove, Datepicker, Loader, Modal,
-    ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr,
-    ToastrPlugin, Fade, Zoom, Typeahead, VueSwitch, IntervalFilter,
-    DateFilter, DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
-    EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter,
+    Dropdown, DropdownIndicator, Card, CardHeader, CardContent, CardImage,
+    CardFooter, CardFooterItem, CardControl, CardBadge, CardCollapse,
+    CardRefresh, CardRemove, Datepicker, Loader, Modal, ModalCard,
+    ProgressBar, Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Fade, Zoom,
+    Typeahead, VueSwitch, IntervalFilter, DateFilter, DateIntervalFilter,
+    EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter,
+    VueFilter, EnsoVueFilter,
 };
