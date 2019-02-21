@@ -4,6 +4,9 @@ import {
     CardRefresh, CardRemove,
 } from '@enso-ui/card/bulma';
 
+import Confirmation from '@enso-ui/confirmation/bulma';
+import BaseConfirmation from '@enso-ui/confirmation';
+
 import Datepicker from '@enso-ui/datepicker/bulma';
 
 import Dropdown from '@enso-ui/dropdown/bulma';
@@ -34,11 +37,10 @@ import {
 } from '@enso-ui/filters/bulma';
 
 export {
-    Dropdown, DropdownIndicator, Card, CardHeader, CardContent, CardImage,
-    CardFooter, CardFooterItem, CardControl, CardBadge, CardCollapse,
-    CardRefresh, CardRemove, Datepicker, Loader, Modal, ModalCard,
-    ProgressBar, Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Fade, Zoom,
-    Typeahead, VueSwitch, IntervalFilter, DateFilter, DateIntervalFilter,
-    EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter,
-    VueFilter, EnsoVueFilter,
+    Confirmation, BaseConfirmation, Datepicker, Card, CardHeader, CardContent, CardImage,
+    CardFooter, CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh,
+    CardRemove, Dropdown, DropdownIndicator, Loader, Modal, ModalCard, ProgressBar,
+    Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Fade, Zoom, Typeahead, VueSwitch,
+    IntervalFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
+    EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter,
 };

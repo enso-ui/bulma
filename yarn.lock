@@ -610,15 +610,27 @@
     to-fast-properties "^2.0.0"
 
 "@enso-ui/card@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.2.tgz#8415bdf55a6d3c2f85d86997f9ca283c712ebc2c"
-  integrity sha512-sP4G2FR/tBWgn7jpOxyFGvnn2HcnkjhsKyYHOUD7ADhKxG1uy3SJqo2TlGu9XrcfFztoGsLrmbU36jZBWNErEw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.3.tgz#1720bb2cde72e105fba23ef407d2aa6b35d8d167"
+  integrity sha512-M++IUWynbx1iKoUwUlclH3Z2n59QwVzW7gT+7i5hQ9EPtMmGBnFk9BZqGC//HUnCI2Ad15PA0VEof16z6cx3yQ==
   dependencies:
     "@enso-ui/dropdown-indicator" "^1.0.0"
     "@enso-ui/loader" "^1.0.0"
     "@fortawesome/fontawesome-svg-core" "^1.2.2"
     "@fortawesome/free-solid-svg-icons" "^5.2.0"
     bulma "^0.7.2"
+    vue "^2.5.16"
+
+"@enso-ui/confirmation@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@enso-ui/confirmation/-/confirmation-1.0.1.tgz#c37ca21880ba43a95d0be22d331d5bcfa0b2242b"
+  integrity sha512-SMG7GkIBCtS7Re9d9bpKmGYRY/xlim0AZsAU3y520QaDnFBGcIvxTqz6w3V3SuUzIi6s6aEmbBAFgk1q2ODtpg==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.2"
+    "@fortawesome/free-solid-svg-icons" "^5.2.0"
+    "@fortawesome/vue-fontawesome" "^0.1.1"
+    bulma "^0.7.2"
+    v-tooltip "^2.0.0-rc.32"
     vue "^2.5.16"
 
 "@enso-ui/datepicker@^1.0.0":
@@ -5153,9 +5165,9 @@ npm-bundled@^1.0.1:
   integrity sha512-8/JCaftHwbd//k6y2rEWp6k1wxVfpFzB6t1p825+cUb7Ym2XQfhwIC5KwhrvzZRJu+LtDE585zVaS32+CGtf0g==
 
 npm-packlist@^1.1.6:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.0.tgz#b2c0867af2a396e0734343d2b6b3f7934db935f2"
-  integrity sha512-zCAmKshsFx2MhOsXdYmZd1DO2d8ts80kVASSWX6lv8654i0edCnNCoEqwVsMygl1BSroCPW6Zh5Dcw+ann775g==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.1.tgz#19064cdf988da80ea3cee45533879d90192bbfbc"
+  integrity sha512-+TcdO7HJJ8peiiYhvPxsEDhF3PJFGUGRcFsGve3vxvxdcpO2Z4Z7rkosRM0kWj6LfbK/P0gu3dzk5RU1ffvFcw==
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"

@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@enso-ui/card": "^1.0.0",
+    "@enso-ui/confirmation": "^1.0.0",
     "@enso-ui/datepicker": "^1.0.0",
     "@enso-ui/dropdown": "^1.0.0",
     "@enso-ui/dropdown-indicator": "^1.0.0",
