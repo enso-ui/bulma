@@ -13,7 +13,7 @@ import Dropdown from '@enso-ui/dropdown/bulma';
 
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 
-import Loader from '@enso-ui/loader';
+import Loader from '@enso-ui/loader/bulma';
 
 import { Modal, ModalCard } from '@enso-ui/modal/bulma';
 
