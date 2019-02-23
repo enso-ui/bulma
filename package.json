@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laravel-enso/bulma.git"
+    "url": "git+https://github.com/enso-ui/bulma.git"
   },
   "keywords": [
     "bulma",
@@ -20,9 +20,9 @@
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/laravel-enso/bulma/issues"
+    "url": "https://github.com/enso-ui/bulma/issues"
   },
-  "homepage": "https://github.com/laravel-enso/bulma#readme",
+  "homepage": "https://github.com/enso-ui/bulma#readme",
   "devDependencies": {
     "@vue/eslint-config-airbnb": "^4.0.0",
     "babel-eslint": "^10.0.1",

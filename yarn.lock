@@ -610,9 +610,9 @@
     to-fast-properties "^2.0.0"
 
 "@enso-ui/card@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.3.tgz#1720bb2cde72e105fba23ef407d2aa6b35d8d167"
-  integrity sha512-M++IUWynbx1iKoUwUlclH3Z2n59QwVzW7gT+7i5hQ9EPtMmGBnFk9BZqGC//HUnCI2Ad15PA0VEof16z6cx3yQ==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@enso-ui/card/-/card-1.0.5.tgz#5272f80411f4a9d7062b3d3605ce17e9dfded6b7"
+  integrity sha512-tS897+UpxaFw/UGoTHF6LXHXsVaZl3t0z2xxuKgmVFcLZosFBPsQR3I20Mi+rzta/MIwhOVe6A5PEyFxKZfvhQ==
   dependencies:
     "@enso-ui/dropdown-indicator" "^1.0.0"
     "@enso-ui/loader" "^1.0.0"
@@ -657,9 +657,9 @@
     vue "^2.5.16"
 
 "@enso-ui/dropdown@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@enso-ui/dropdown/-/dropdown-1.0.3.tgz#bee982cda8012ce70b518ce57a83009e4750a8bf"
-  integrity sha512-zawgXBoSOlCBjvnJIcxJ5G+9IrWGYL2z7a480F0lYvKnZNwp3Q8ulD/fgBrb4f787YfHUpWHNKKKkyeuViHGXA==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@enso-ui/dropdown/-/dropdown-1.0.4.tgz#56ee531e7b211bd15d7fcdee0438fefae1ed7fa6"
+  integrity sha512-YfxsCswP/0t23cnqb4S89iDb3M15TwqDKZ9AtIqeWAsVQfrQ7XqQWdEt1qVMN9kaY07HGcpVkWb5VY8H5WenxQ==
   dependencies:
     "@enso-ui/dropdown-indicator" "^1.0.0"
     "@enso-ui/transitions" "^1.0.0"
@@ -667,9 +667,9 @@
     vue "^2.5.16"
 
 "@enso-ui/filters@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@enso-ui/filters/-/filters-1.0.3.tgz#bc685c91b0032a11a64302966f910146ca6aa999"
-  integrity sha512-siDDvai835WmVB1aPMp1iXwWrl2dDjoWiNJAtO8MqrTl8VQlLGF+mrqgvFc8sKjYtqASeUVCUeQMrhhnEpTg1w==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@enso-ui/filters/-/filters-1.0.4.tgz#d8164c00f832105285ce9cb87b26fe0dfef93a9a"
+  integrity sha512-99ZfwgrZ9HLfnuf1f+sZ2vEwJVpmxJH8UAlG1CaOMn8zx3D6UBdmRSOSw4rzmi/7bmGE3Q+it72Bus4toY62yw==
   dependencies:
     "@enso-ui/datepicker" "^1.0.0"
     "@enso-ui/transitions" "^1.0.0"
@@ -683,28 +683,27 @@
     vuex "^3.0.0"
 
 "@enso-ui/loader@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@enso-ui/loader/-/loader-1.0.0.tgz#dbf58c49fb98fa4c1cd524ae0f39ac6349611c1a"
-  integrity sha512-BpOcAdFfgWR7gy92SL6HqNljLHuh9yIaWHf2hI6OeAZsY6Ldmk+TRNs12lT0Nhs0icyxVOvEzLmtjp14Tl5gtg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@enso-ui/loader/-/loader-1.0.4.tgz#dc74c092cf37af9009e7977705fe3f2a0cd15ddc"
+  integrity sha512-1RMSMW6a4856F0TofMsXVbU63xB0GrmnzB0I4pM/DMHGQiULGGP1NR1x7t7kwqhSPjyjyCXk+yZm7z+1ltFviQ==
   dependencies:
     "@enso-ui/transitions" "^1.0.0"
     bulma "^0.7.2"
     vue "^2.5.16"
 
 "@enso-ui/modal@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@enso-ui/modal/-/modal-1.0.2.tgz#619366a4fe726b33d90e646643ce1d9616b2ec03"
-  integrity sha512-4dik7+ja+NwaPnowpCyJL0HLbC3rCyrAFoHTFw0cyCeppjkpCTX2vZRizTH0aUrBGbtQn0rhVgoRRLaB5ia4Mg==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@enso-ui/modal/-/modal-1.0.3.tgz#fa85ee03a9cf5240bb619a30771d5ee0397b165b"
+  integrity sha512-9oUPM0ohDlN03ObicMRwQjXHNkDoKzo1hGNQLSCHpmL9dANLHK4th2e+z0U6w+o/FM+awLhbL/gPGiVLJveQ9Q==
   dependencies:
     "@enso-ui/transitions" "^1.0.0"
-    animate.css "^3.6.1"
     bulma "^0.7.2"
     vue "^2.5.16"
 
 "@enso-ui/progress-bar@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@enso-ui/progress-bar/-/progress-bar-1.0.1.tgz#ab3390a0c07f778aa6228ed5ff6c161ac539bf09"
-  integrity sha512-7dbUbeIi5qHAY1t5wuoYiOasKi8Dmr1hGPwkyA+Jmee7uOmK3NfuTlcJtZXDT9eLr3YgIg+Q6WBWcvNScM10Ig==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@enso-ui/progress-bar/-/progress-bar-1.0.2.tgz#fca9503001d75a4d49d105fd00a61fab8484ebc8"
+  integrity sha512-h8vdNxnT8JVE9eukciuRL6EXZAlTjumIHPtqbcGO6ZG89TTuydpmGqwAh+IEQlOaW85mOGB6vBNiJJakg4to4g==
   dependencies:
     vue "^2.5.16"
 
@@ -740,9 +739,9 @@
     vue "^2.5.16"
 
 "@enso-ui/transitions@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@enso-ui/transitions/-/transitions-1.0.3.tgz#321debc083a3a9abd0170f417b3e02f9cf33cae9"
-  integrity sha512-pAY0P7RDmNUf8rbV0KaLnMXbMpQBbG0Iz8B9mqsK3QCZpPA9AdVN1jK0EaOpFvD5st10jXOJlye91Fz+7UuTdg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@enso-ui/transitions/-/transitions-1.0.4.tgz#949bfc0ebcd768a09837c65392516798be0d90d9"
+  integrity sha512-8QGm7A/PcLPHRTYUE5qeH0khVLXyTacieAccpJJxPPzNftSRbAAhbTzzwgLFssuqwFtkbqaNn/PdySJkVzExAQ==
   dependencies:
     animate.css "^3.6.1"
     vue "^2.5.16"
@@ -3573,9 +3572,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 homedir-polyfill@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/homedir-polyfill/-/homedir-polyfill-1.0.1.tgz#4c2bbc8a758998feebf5ed68580f76d46768b4bc"
-  integrity sha1-TCu8inWJmP7r9e1oWA921GdotLw=
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/homedir-polyfill/-/homedir-polyfill-1.0.3.tgz#743298cef4e5af3e194161fbadcc2151d3a058e8"
+  integrity sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==
   dependencies:
     parse-passwd "^1.0.0"
 
@@ -6288,9 +6287,9 @@ regenerator-runtime@^0.12.0:
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
 
 regenerator-transform@^0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.13.3.tgz#264bd9ff38a8ce24b06e0636496b2c856b57bcbb"
-  integrity sha512-5ipTrZFSq5vU2YoGoww4uaRVAK4wyYC4TSICibbfEPOruUu8FFP7ErV0BjmbIOEpn3O/k9na9UEdYR/3m7N6uA==
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.13.4.tgz#18f6763cf1382c69c36df76c6ce122cc694284fb"
+  integrity sha512-T0QMBjK3J0MtxjPmdIMXm72Wvj2Abb0Bd4HADdfijwMdoIsyQZ6fWC7kDFhk2YinBBEMZDL7Y7wh0J1sGx3S4A==
   dependencies:
     private "^0.1.6"
 
