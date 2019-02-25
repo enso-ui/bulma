@@ -24,7 +24,10 @@ import { Tab, Tabs, EnsoTabs } from '@enso-ui/tabs/bulma';
 import Toastr from '@enso-ui/toastr/bulma';
 import ToastrPlugin from '@enso-ui/toastr';
 
-import { Fade, Zoom } from '@enso-ui/transitions';
+import {
+    Fade, SlideLeft, SlideRight, SlideUp, SlideDown, FadeLeft,
+    FadeRight, FadeUp, FadeDown, Zoom,
+} from '@enso-ui/transitions';
 
 import Typeahead from '@enso-ui/typeahead/bulma';
 
@@ -40,7 +43,8 @@ export {
     Confirmation, BaseConfirmation, Datepicker, Card, CardHeader, CardContent, CardImage,
     CardFooter, CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh,
     CardRemove, Dropdown, DropdownIndicator, Loader, Modal, ModalCard, ProgressBar,
-    Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Fade, Zoom, Typeahead, VueSwitch,
+    Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Fade, SlideLeft, SlideRight, SlideUp,
+    SlideDown, FadeLeft, FadeRight, FadeUp, FadeDown, Zoom, Typeahead, VueSwitch,
     IntervalFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
     EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter,
 };
