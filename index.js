@@ -4,7 +4,7 @@ import {
     CardRefresh, CardRemove,
 } from '@enso-ui/card/bulma';
 
-import Chart from '@enso-ui/charts';
+import { Chart } from '@enso-ui/charts';
 import { ChartCard, EnsoChartCard } from '@enso-ui/charts/bulma';
 
 import Confirmation from '@enso-ui/confirmation/bulma';
