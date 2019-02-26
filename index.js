@@ -4,10 +4,13 @@ import {
     CardRefresh, CardRemove,
 } from '@enso-ui/card/bulma';
 
+import Chart from '@enso-ui/charts';
+import { ChartCard, EnsoChartCard } from '@enso-ui/charts/bulma';
+
 import Confirmation from '@enso-ui/confirmation/bulma';
 import BaseConfirmation from '@enso-ui/confirmation';
 
-import Datepicker from '@enso-ui/datepicker/bulma';
+import { Datepicker, EnsoDatepicker } from '@enso-ui/datepicker/bulma';
 
 import Dropdown from '@enso-ui/dropdown/bulma';
 
@@ -29,7 +32,7 @@ import {
     FadeRight, FadeUp, FadeDown, Zoom,
 } from '@enso-ui/transitions';
 
-import Typeahead from '@enso-ui/typeahead/bulma';
+import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
 import VueSwitch from '@enso-ui/switch/bulma';
 
@@ -40,11 +43,12 @@ import {
 } from '@enso-ui/filters/bulma';
 
 export {
-    Confirmation, BaseConfirmation, Datepicker, Card, CardHeader, CardContent, CardImage,
-    CardFooter, CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh,
-    CardRemove, Dropdown, DropdownIndicator, Loader, Modal, ModalCard, ProgressBar,
-    Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Fade, SlideLeft, SlideRight, SlideUp,
-    SlideDown, FadeLeft, FadeRight, FadeUp, FadeDown, Zoom, Typeahead, VueSwitch,
-    IntervalFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
-    EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter,
+    Card, CardHeader, CardContent, CardImage, CardFooter, CardFooterItem, CardControl,
+    CardBadge, CardCollapse, CardRefresh, CardRemove, Chart, ChartCard, EnsoChartCard,
+    Confirmation, BaseConfirmation, Datepicker, EnsoDatepicker, Dropdown, DropdownIndicator,
+    Loader, Modal, ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin,
+    Fade, SlideLeft, SlideRight, SlideUp, SlideDown, FadeLeft, FadeRight, FadeUp,
+    FadeDown, Zoom, Typeahead, EnsoTypeahead, VueSwitch, IntervalFilter, DateFilter,
+    DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
+    BooleanFilter, VueFilter, EnsoVueFilter,
 };
