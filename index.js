@@ -34,6 +34,8 @@ import {
 
 import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
+import { EnsoUploader, Uploader } from '@enso-ui/uploader/bulma';
+
 import VueSwitch from '@enso-ui/switch/bulma';
 
 import {
@@ -50,5 +52,5 @@ export {
     Fade, SlideLeft, SlideRight, SlideUp, SlideDown, FadeLeft, FadeRight, FadeUp,
     FadeDown, Zoom, Typeahead, EnsoTypeahead, VueSwitch, IntervalFilter, DateFilter,
     DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
-    BooleanFilter, VueFilter, EnsoVueFilter,
+    BooleanFilter, VueFilter, EnsoVueFilter, EnsoUploader, Uploader,
 };

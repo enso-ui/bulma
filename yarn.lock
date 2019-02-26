@@ -771,6 +771,17 @@
     lodash "^4.17.10"
     vue "^2.5.16"
 
+"@enso-ui/uploader@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@enso-ui/uploader/-/uploader-1.0.0.tgz#3d4fe5c9d8c5ff055b706f574a8d65d9dc8a6e30"
+  integrity sha512-y0EdfIAV4OBZSunLm7GJHEhM6D2T6hOQ1ZGbrRd6xKr63ia4s4mkmf/P3CVJbEwZCxAX7eURAedHVgqzdFjlug==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.2"
+    "@fortawesome/free-solid-svg-icons" "^5.2.0"
+    "@fortawesome/vue-fontawesome" "^0.1.1"
+    bulma "^0.7.2"
+    vue "^2.5.16"
+
 "@fortawesome/fontawesome-common-types@^0.2.15":
   version "0.2.15"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.15.tgz#16af950653083d1e3064061de9f8e5e3b579f688"

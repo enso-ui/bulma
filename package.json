@@ -44,6 +44,7 @@
     "@enso-ui/loader": "^1.0.0",
     "@enso-ui/modal": "^1.0.0",
     "@enso-ui/progress-bar": "^1.0.0",
+    "@enso-ui/uploader": "^1.0.0",
     "@enso-ui/switch": "^1.0.0",
     "@enso-ui/tabs": "^1.0.0",
     "@enso-ui/toastr": "^1.0.0",
