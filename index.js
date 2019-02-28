@@ -36,6 +36,8 @@ import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
 import { EnsoUploader, Uploader } from '@enso-ui/uploader/bulma';
 
+import { VueSelect, EnsoVueSelect } from '@enso-ui/select/bulma';
+
 import VueSwitch from '@enso-ui/switch/bulma';
 
 import {
@@ -50,7 +52,7 @@ export {
     Confirmation, BaseConfirmation, Datepicker, EnsoDatepicker, Dropdown, DropdownIndicator,
     Loader, Modal, ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin,
     Fade, SlideLeft, SlideRight, SlideUp, SlideDown, FadeLeft, FadeRight, FadeUp,
-    FadeDown, Zoom, Typeahead, EnsoTypeahead, VueSwitch, IntervalFilter, DateFilter,
-    DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
-    BooleanFilter, VueFilter, EnsoVueFilter, EnsoUploader, Uploader,
+    FadeDown, Zoom, Typeahead, EnsoTypeahead, VueSwitch, VueSelect, EnsoVueSelect,
+    IntervalFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter,
+    EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoVueFilter, EnsoUploader, Uploader,
 };
