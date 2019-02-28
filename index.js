@@ -42,7 +42,7 @@ import VueSwitch from '@enso-ui/switch/bulma';
 import {
     IntervalFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
     EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
-    EnsoVueFilter, SelectFilter, EnsoSelectFilter,
+    EnsoFilter, SelectFilter, EnsoSelectFilter,
 } from '@enso-ui/filters/bulma';
 
 export {
@@ -53,6 +53,6 @@ export {
     SlideRight, SlideUp, SlideDown, FadeLeft, FadeRight, FadeUp, FadeDown, Zoom, Typeahead,
     EnsoTypeahead, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter,
     DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
-    BooleanFilter, VueFilter, EnsoVueFilter, SelectFilter, EnsoSelectFilter, EnsoUploader,
+    BooleanFilter, VueFilter, EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoUploader,
     Uploader,
 };
