@@ -26,11 +26,6 @@ import { Tab, Tabs, EnsoTabs } from '@enso-ui/tabs/bulma';
 import Toastr from '@enso-ui/toastr/bulma';
 import ToastrPlugin from '@enso-ui/toastr';
 
-import {
-    Fade, SlideLeft, SlideRight, SlideUp, SlideDown, FadeLeft,
-    FadeRight, FadeUp, FadeDown, Zoom,
-} from '@enso-ui/transitions';
-
 import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
 import { EnsoUploader, Uploader } from '@enso-ui/uploader/bulma';
