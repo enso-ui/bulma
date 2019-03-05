@@ -11,6 +11,8 @@ import Confirmation from '@enso-ui/confirmation/bulma';
 
 import { Datepicker, EnsoDatepicker } from '@enso-ui/datepicker/bulma';
 
+import Divider from '@enso-ui/divider';
+
 import Dropdown from '@enso-ui/dropdown/bulma';
 
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
@@ -18,6 +20,8 @@ import DropdownIndicator from '@enso-ui/dropdown-indicator';
 import Loader from '@enso-ui/loader/bulma';
 
 import { Modal, ModalCard } from '@enso-ui/modal/bulma';
+
+import Money from '@enso-ui/money';
 
 import ProgressBar from '@enso-ui/progress-bar';
 
@@ -43,9 +47,9 @@ import {
 export {
     Card, CardHeader, CardContent, CardImage, CardFooter, CardFooterItem, CardControl,
     CardBadge, CardCollapse, CardRefresh, CardRemove, Chart, ChartCard, EnsoChartCard,
-    Confirmation, Datepicker, EnsoDatepicker, Dropdown, DropdownIndicator, Loader, Modal,
-    ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Toastr, ToastrPlugin, Typeahead,
-    EnsoTypeahead, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter,
+    Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown, DropdownIndicator, Loader,
+    Modal, ModalCard, ProgressBar, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin,
+    Typeahead, EnsoTypeahead, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter,
     DateIntervalFilter, EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter,
     BooleanFilter, VueFilter, EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoUploader,
     Uploader,
