@@ -6,18 +6,17 @@
 ![GitHub issues](https://img.shields.io/github/issues/enso-ui/bulma.svg) 
 ![npm version](https://img.shields.io/npm/v/@enso-ui/bulma.svg) 
 
-Aggregator for enso-ui bulma components
+Aggregator for Enso-Ui Bulma components
 
 ## Usage
-This package provides a common source for all the bulma components available in the various NPM packages.
+This package provides a common source for all the Bulma components 
+available in the various NPM packages.
 
 ### Demo
 
 For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
-Check the full documentation at  [docs.laravel-enso.com](https://docs.laravel-enso.com).Check the full documentation at  [docs.laravel-enso.com](https://docs.laravel-enso.com).
-
-### Installation
+Check the full documentation at  [docs.laravel-enso.com](https://docs.laravel-enso.com).
 
 ### Installation
 
