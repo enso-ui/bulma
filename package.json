@@ -48,6 +48,7 @@
     "@enso-ui/modal": "^1.0.0",
     "@enso-ui/money": "^1.0.2",
     "@enso-ui/progress-bar": "^1.0.0",
+    "@enso-ui/scroll-to-top": "^1.0.0",
     "@enso-ui/select": "^1.0.0",
     "@enso-ui/switch": "^1.0.0",
     "@enso-ui/tables": "^1.0.17",

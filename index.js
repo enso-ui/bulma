@@ -35,6 +35,10 @@ import Money from '@enso-ui/money';
 
 import ProgressBar from '@enso-ui/progress-bar';
 
+import ScrollToTop from '@enso-ui/scroll-to-top/bulma';
+
+import { VueSelect, EnsoSelect } from '@enso-ui/select/bulma';
+
 import { VueTable, EnsoTable } from '@enso-ui/tables/bulma';
 
 import { Tab, Tabs, EnsoTabs } from '@enso-ui/tabs/bulma';
@@ -45,8 +49,6 @@ import ToastrPlugin from '@enso-ui/toastr';
 import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
 import { EnsoUploader, Uploader } from '@enso-ui/uploader/bulma';
-
-import { VueSelect, EnsoSelect } from '@enso-ui/select/bulma';
 
 import VueSwitch from '@enso-ui/switch/bulma';
 
@@ -64,7 +66,7 @@ export {
     DropdownIndicator, VueForm, EnsoForm, DateField, InputField, MoneyField, SelectField,
     SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, VueTable,
     EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
-    VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter, DateIntervalFilter,
+    ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter, DateIntervalFilter,
     EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
     EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoUploader, Uploader,
 };
