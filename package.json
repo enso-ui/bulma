@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/bulma",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Aggregator for enso-ui bulma components",
   "main": "index.js",
   "scripts": {
