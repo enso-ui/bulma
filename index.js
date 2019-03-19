@@ -35,6 +35,8 @@ import Money from '@enso-ui/money';
 
 import ProgressBar from '@enso-ui/progress-bar';
 
+import ProgressCircle from '@enso-ui/progress-circle';
+
 import ScrollToTop from '@enso-ui/scroll-to-top/bulma';
 
 import { VueSelect, EnsoSelect } from '@enso-ui/select/bulma';
@@ -64,8 +66,8 @@ export {
     CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart,
     ChartCard, EnsoChartCard, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown,
     DropdownIndicator, VueForm, EnsoForm, DateField, InputField, MoneyField, SelectField,
-    SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, VueTable,
-    EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
+    SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, ProgressCircle,
+    VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
     ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter, DateIntervalFilter,
     EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
     EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoUploader, Uploader,
