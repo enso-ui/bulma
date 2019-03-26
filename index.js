@@ -23,7 +23,7 @@ import Dropdown from '@enso-ui/dropdown/bulma';
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 
 import {
-    VueForm, EnsoForm, DateField, InputField, MoneyField,
+    VueForm, EnsoForm, FormField, DateField, InputField, MoneyField,
     SelectField, SwitchField, TextareaField, TimeField,
 } from '@enso-ui/forms/bulma';
 
@@ -65,7 +65,7 @@ export {
     DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter,
     CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart,
     ChartCard, EnsoChartCard, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown,
-    DropdownIndicator, VueForm, EnsoForm, DateField, InputField, MoneyField, SelectField,
+    DropdownIndicator, VueForm, EnsoForm, FormField, DateField, InputField, MoneyField, SelectField,
     SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, ProgressCircle,
     VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
     ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter, DateIntervalFilter,
