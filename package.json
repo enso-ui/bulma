@@ -43,7 +43,7 @@
     "@enso-ui/dropdown": "^1.0.0",
     "@enso-ui/dropdown-indicator": "^1.0.0",
     "@enso-ui/filters": "^1.0.0",
-    "@enso-ui/forms": "^1.0.18",
+    "@enso-ui/forms": "~1.2.0",
     "@enso-ui/loader": "^1.0.0",
     "@enso-ui/modal": "^1.0.0",
     "@enso-ui/money": "^1.0.2",
