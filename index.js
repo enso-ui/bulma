@@ -60,6 +60,8 @@ import {
     EnsoFilter, SelectFilter, EnsoSelectFilter,
 } from '@enso-ui/filters/bulma';
 
+import { FilterState } from '@enso-ui/filters/renderless';
+
 export {
     Accessories, AddressesCard, Addresses, RoAddresses, CommentsCard, Comments, Discussions,
     DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter,
@@ -70,5 +72,5 @@ export {
     VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
     ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, DateFilter, DateIntervalFilter,
     EnsoIntervalFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
-    EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoUploader, Uploader,
+    EnsoFilter, SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader,
 };
