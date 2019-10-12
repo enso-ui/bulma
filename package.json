@@ -34,7 +34,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "@enso-ui/accessories": "2.0.x",
+    "@enso-ui/accessories": "2.1.x",
     "@enso-ui/card": "1.0.x",
     "@enso-ui/charts": "1.0.x",
     "@enso-ui/confirmation": "1.0.x",
@@ -42,7 +42,7 @@
     "@enso-ui/divider": "1.0.x",
     "@enso-ui/dropdown": "1.0.x",
     "@enso-ui/dropdown-indicator": "1.0.x",
-    "@enso-ui/filters": "1.1.x",
+    "@enso-ui/filters": "1.2.x",
     "@enso-ui/forms": "1.2.x",
     "@enso-ui/loader": "1.0.x",
     "@enso-ui/modal": "1.0.x",
@@ -52,7 +52,7 @@
     "@enso-ui/scroll-to-top": "1.0.x",
     "@enso-ui/select": "1.1.x",
     "@enso-ui/switch": "1.0.x",
-    "@enso-ui/tables": "1.1.x",
+    "@enso-ui/tables": "1.2.x",
     "@enso-ui/tabs": "1.0.x",
     "@enso-ui/toastr": "1.0.x",
     "@enso-ui/typeahead": "1.1.x",
