@@ -16,70 +16,9 @@ available in the various NPM packages.
 
 For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
-Check the full documentation at  [docs.laravel-enso.com](https://docs.laravel-enso.com).
+### Installation, Configuration & Usage
 
-### Installation
-
-Install the package:
-```
-npm i @enso-ui/bulma
-```
-Import the desired component(s):
-```js
-import {
-    Tab, EnsoTabs as Tabs, EnsoDateFilter as DateFilter, Uploader, Chart,
-} from '@enso-ui/bulma';
-```
-
-### Exports
-
-`@enso-ui/bulma`:
-- `Card`, 
-- `CardHeader`, 
-- `CardContent`, 
-- `CardImage`, 
-- `CardFooter`, 
-- `CardFooterItem`, 
-- `CardControl`,
-- `CardBadge`, 
-- `CardCollapse`, 
-- `CardRefresh`, 
-- `CardRemove`, 
-- `Chart`, 
-- `ChartCard`, 
-- `EnsoChartCard`,
-- `Confirmation`, 
-- `Datepicker`, 
-- `EnsoDatepicker`, 
-- `Dropdown`, 
-- `DropdownIndicator`, 
-- `Loader`, 
-- `Modal`,
-- `ModalCard`, 
-- `ProgressBar`, 
-- `Tab`, 
-- `Tabs`, 
-- `EnsoTabs`, 
-- `Toastr`, 
-- `ToastrPlugin`,  
-- `Typeahead`,
-- `EnsoTypeahead`, 
-- `VueSwitch`, 
-- `VueSelect`, 
-- `EnsoSelect`, 
-- `IntervalFilter`, 
-- `DateFilter`,
-- `DateIntervalFilter`, 
-- `EnsoIntervalFilter`, 
-- `EnsoDateFilter`, 
-- `EnsoDateIntervalFilter`,
-- `BooleanFilter`, 
-- `VueFilter`, 
-- `EnsoVueFilter`, 
-- `SelectFilter`, 
-- `EnsoSelectFilter`, 
-- `EnsoUploader`,
-- `Uploader`,
+Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/frontend/bulma.html)
 
 ## Contributions
 
