@@ -56,8 +56,8 @@ import VueSwitch from '@enso-ui/switch/bulma';
 
 import {
     IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
-    EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
-    EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoInputFilter,
+    EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, SimpleDateFilter,
+    EnsoFilter, SelectFilter, EnsoSelectFilter, EnsoInputFilter, EnsoSimpleDateFilter,
 } from '@enso-ui/filters/bulma';
 
 import { FilterState } from '@enso-ui/filters/renderless';
@@ -72,5 +72,6 @@ export {
     VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
     ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter,
     EnsoIntervalFilter, EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
-    EnsoFilter, SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader,
+    EnsoFilter, SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, SimpleDateFilter,
+    EnsoSimpleDateFilter,
 };
