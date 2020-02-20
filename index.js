@@ -18,7 +18,7 @@ import { Datepicker, EnsoDatepicker } from '@enso-ui/datepicker/bulma';
 
 import Divider from '@enso-ui/divider';
 
-import Dropdown from '@enso-ui/dropdown/bulma';
+import { Dropdown, DropdownItem } from '@enso-ui/dropdown/bulma';
 
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 
@@ -66,7 +66,7 @@ export {
     Accessories, AddressesCard, Addresses, RoAddresses, CommentsCard, Comments, Discussions,
     DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter,
     CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart,
-    ChartCard, EnsoChartCard, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown,
+    ChartCard, EnsoChartCard, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown, DropdownItem,
     DropdownIndicator, VueForm, EnsoForm, FormField, Action, DateField, InputField, MoneyField, SelectField,
     SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, ProgressCircle,
     VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
