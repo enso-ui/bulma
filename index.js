@@ -48,6 +48,8 @@ import { Tab, Tabs, EnsoTabs } from '@enso-ui/tabs/bulma';
 import Toastr from '@enso-ui/toastr/bulma';
 import ToastrPlugin from '@enso-ui/toastr';
 
+import TreeView from '@enso-ui/tree-view/bulma';
+
 import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
 import { EnsoUploader, Uploader } from '@enso-ui/uploader/bulma';
@@ -69,7 +71,7 @@ export {
     ChartCard, EnsoChartCard, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown, DropdownItem,
     DropdownIndicator, VueForm, EnsoForm, FormField, Action, DateField, InputField, MoneyField, SelectField,
     SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, ProgressCircle,
-    VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, Typeahead, EnsoTypeahead,
+    VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, TreeView, Typeahead, EnsoTypeahead,
     ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter,
     EnsoIntervalFilter, EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
     EnsoFilter, SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, SimpleDateFilter,
