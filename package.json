@@ -45,6 +45,7 @@
     "@enso-ui/tables": "1.4.x",
     "@enso-ui/tabs": "1.0.x",
     "@enso-ui/toastr": "1.0.x",
+    "@enso-ui/tree-view": "0.0.x",
     "@enso-ui/typeahead": "1.2.x",
     "@enso-ui/uploader": "1.0.x",
     "bulma": "^0.8.0"
