@@ -27,6 +27,7 @@
     "@enso-ui/accessories": "2.4.x",
     "@enso-ui/card": "1.0.x",
     "@enso-ui/charts": "1.0.x",
+    "@enso-ui/checkbox": "1.0.x",
     "@enso-ui/confirmation": "1.0.x",
     "@enso-ui/datepicker": "1.1.x",
     "@enso-ui/divider": "1.0.x",

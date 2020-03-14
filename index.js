@@ -12,6 +12,8 @@ import {
 import { Chart } from '@enso-ui/charts';
 import { ChartCard, EnsoChartCard } from '@enso-ui/charts/bulma';
 
+import { CheckboxManager, CheckboxItems } from '@enso-ui/checkbox/bulma';
+
 import Confirmation from '@enso-ui/confirmation/bulma';
 
 import { Datepicker, EnsoDatepicker } from '@enso-ui/datepicker/bulma';
@@ -66,14 +68,15 @@ import { FilterState } from '@enso-ui/filters/renderless';
 
 export {
     Accessories, AddressesCard, Addresses, RoAddresses, CommentsCard, Comments, Discussions,
-    DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter,
-    CardFooterItem, CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart,
-    ChartCard, EnsoChartCard, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown, DropdownItem,
-    DropdownIndicator, VueForm, EnsoForm, FormField, Action, DateField, InputField, MoneyField, SelectField,
-    SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, ProgressCircle,
-    VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr, ToastrPlugin, TreeView, Typeahead, EnsoTypeahead,
-    ScrollToTop, VueSwitch, VueSelect, EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter,
-    EnsoIntervalFilter, EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter,
-    EnsoFilter, SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, SimpleDateFilter,
+    DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter, CardFooterItem,
+    CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart, ChartCard, EnsoChartCard,
+    CheckboxManager, CheckboxItems, Confirmation, Datepicker, EnsoDatepicker, Divider, Dropdown,
+    DropdownItem, DropdownIndicator, VueForm, EnsoForm, FormField, Action, DateField, InputField,
+    MoneyField, SelectField, SwitchField, TextareaField, TimeField, Loader, Modal, ModalCard,
+    ProgressBar, ProgressCircle, VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr,
+    ToastrPlugin, TreeView, Typeahead, EnsoTypeahead, ScrollToTop, VueSwitch, VueSelect,
+    EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
+    EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoFilter,
+    SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, SimpleDateFilter,
     EnsoSimpleDateFilter,
 };
