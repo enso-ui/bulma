@@ -40,6 +40,7 @@
     "@enso-ui/money": "1.0.x",
     "@enso-ui/progress-bar": "1.0.x",
     "@enso-ui/progress-circle": "1.0.x",
+    "@enso-ui/quick-view": "1.0.x",
     "@enso-ui/scroll-to-top": "1.0.x",
     "@enso-ui/select": "1.2.x",
     "@enso-ui/switch": "1.0.x",

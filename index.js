@@ -39,6 +39,8 @@ import ProgressBar from '@enso-ui/progress-bar';
 
 import ProgressCircle from '@enso-ui/progress-circle';
 
+import QuickView from '@enso-ui/quick-view/bulma';
+
 import ScrollToTop from '@enso-ui/scroll-to-top/bulma';
 
 import { VueSelect, EnsoSelect } from '@enso-ui/select/bulma';
@@ -78,5 +80,5 @@ export {
     EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
     EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoFilter,
     SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, SimpleDateFilter,
-    EnsoSimpleDateFilter,
+    EnsoSimpleDateFilter, QuickView,
 };
