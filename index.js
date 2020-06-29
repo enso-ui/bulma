@@ -1,7 +1,6 @@
-import {
-    Accessories, AddressesCard, Addresses, RoAddresses, CommentsCard,
-    Comments, Discussions, DocumentsCard, Documents,
-} from '@enso-ui/accessories/bulma';
+import Accessories from '@enso-ui/accessories/bulma';
+
+import { AddressesCard, Addresses } from '@enso-ui/addresses/bulma';
 
 import {
     Card, CardHeader, CardContent, CardImage, CardFooter,
@@ -12,13 +11,19 @@ import {
 import { Chart } from '@enso-ui/charts';
 import { ChartCard, EnsoChartCard, InfoPanel } from '@enso-ui/charts/bulma';
 
+import { CommentsCard, Comments } from '@enso-ui/comments/bulma';
+
 import { CheckboxManager, CheckboxItems } from '@enso-ui/checkbox/bulma';
 
 import Confirmation from '@enso-ui/confirmation/bulma';
 
 import { Datepicker, EnsoDatepicker } from '@enso-ui/datepicker/bulma';
 
+import Discussions from '@enso-ui/discussions/bulma';
+
 import Divider from '@enso-ui/divider';
+
+import { DocumentsCard, Documents } from '@enso-ui/documents/bulma';
 
 import { Dropdown, DropdownItem } from '@enso-ui/dropdown/bulma';
 
@@ -69,7 +74,7 @@ import {
 import { FilterState } from '@enso-ui/filters/renderless';
 
 export {
-    Accessories, AddressesCard, Addresses, RoAddresses, CommentsCard, Comments, Discussions,
+    Accessories, AddressesCard, Addresses, CommentsCard, Comments, Discussions,
     DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter, CardFooterItem,
     CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart, ChartCard, EnsoChartCard,
     InfoPanel, CheckboxManager, CheckboxItems, Confirmation, Datepicker, EnsoDatepicker, Divider,
