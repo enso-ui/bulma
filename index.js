@@ -1,7 +1,12 @@
-import {
-    Accessories, AddressesCard, Addresses, RoAddresses, CommentsCard,
-    Comments, Discussions, DocumentsCard, Documents,
-} from '@enso-ui/accessories/bulma';
+import Accessories from '@enso-ui/accessories/bulma';
+
+import { AddressesCard, Addresses } from '@enso-ui/addresses/bulma';
+
+import { CommentsCard, Comments } from '@enso-ui/comments/bulma';
+
+import { Discussions, DocumentsCard, Documents } from '@enso-ui/discussions/bulma';
+
+import Documents from '@enso-ui/documents/bulma';
 
 import {
     Card, CardHeader, CardContent, CardImage, CardFooter,
