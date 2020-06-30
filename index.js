@@ -4,9 +4,9 @@ import { AddressesCard, Addresses } from '@enso-ui/addresses/bulma';
 
 import { CommentsCard, Comments } from '@enso-ui/comments/bulma';
 
-import { Discussions, DocumentsCard, Documents } from '@enso-ui/discussions/bulma';
+import { Discussions } from '@enso-ui/discussions/bulma';
 
-import Documents from '@enso-ui/documents/bulma';
+import { DocumentsCard, Documents } from '@enso-ui/documents/bulma';
 
 import {
     Card, CardHeader, CardContent, CardImage, CardFooter,
