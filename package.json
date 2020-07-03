@@ -45,7 +45,7 @@
     "@enso-ui/progress-bar": "1.0",
     "@enso-ui/progress-circle": "^1.0",
     "@enso-ui/quick-view": "^2.0",
-    "@enso-ui/scroll-to-to^p": "1.0",
+    "@enso-ui/scroll-to-top": "1.0",
     "@enso-ui/select": "^2.0",
     "@enso-ui/switch": "^1.0",
     "@enso-ui/tables": "^2.0",
@@ -53,7 +53,7 @@
     "@enso-ui/toastr": "^2.0",
     "@enso-ui/tree-view": "^1.0",
     "@enso-ui/typeahead": "^2.0",
-    "@enso-ui/uploader": "^1.0",
+    "@enso-ui/uploader": "^2.0",
     "bulma": "^0.8.0"
   },
   "devDependencies": {
