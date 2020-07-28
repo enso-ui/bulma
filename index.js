@@ -30,8 +30,8 @@ import { Dropdown, DropdownItem } from '@enso-ui/dropdown/bulma';
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 
 import {
-    VueForm, EnsoForm, FormField, Action, DateField, InputField, MoneyField,
-    SelectField, SwitchField, TextareaField, TimeField,
+    VueForm, EnsoForm, FormField,FormFieldGroup,  Action, DateField, InputField,
+    MoneyField, SelectField, SwitchField, TextareaField, TimeField,
 } from '@enso-ui/forms/bulma';
 
 import Loader from '@enso-ui/loader/bulma';
