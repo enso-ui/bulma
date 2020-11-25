@@ -63,6 +63,8 @@ import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
 
 import { EnsoUploader, Uploader } from '@enso-ui/uploader/bulma';
 
+import Avatar from '@enso-ui/users/src/bulma/pages/users/components/Avatar.vue';
+
 import VueSwitch from '@enso-ui/switch/bulma';
 
 import {
@@ -74,11 +76,11 @@ import {
 import { FilterState } from '@enso-ui/filters/renderless';
 
 export {
-    Accessories, AddressesCard, Addresses, CommentsCard, Comments, Discussions,
+    Accessories, AddressesCard, Addresses, Avatar, CommentsCard, Comments, Discussions,
     DocumentsCard, Documents, Card, CardHeader, CardContent, CardImage, CardFooter, CardFooterItem,
     CardControl, CardBadge, CardCollapse, CardRefresh, CardRemove, Chart, ChartCard, EnsoChartCard,
     InfoPanel, CheckboxManager, CheckboxItems, Confirmation, Datepicker, EnsoDatepicker, Divider,
-    Dropdown, DropdownItem, DropdownIndicator, VueForm, EnsoForm, FormField, FormFieldGroup, Action, 
+    Dropdown, DropdownItem, DropdownIndicator, VueForm, EnsoForm, FormField, FormFieldGroup, Action,
     DateField, InputField, MoneyField, SelectField, SwitchField, TextareaField, TimeField, Loader, Modal,
     ModalCard, ProgressBar, ProgressCircle, VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr,
     ToastrPlugin, TreeView, Typeahead, EnsoTypeahead, ScrollToTop, VueSwitch, VueSelect,
