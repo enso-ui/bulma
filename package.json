@@ -54,7 +54,7 @@
     "@enso-ui/tree-view": "^1.0",
     "@enso-ui/typeahead": "^2.0",
     "@enso-ui/uploader": "^1.0",
-    "bulma": "^0.8.0"
+    "bulma": "^0.9.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
