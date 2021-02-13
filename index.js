@@ -30,7 +30,7 @@ import { Dropdown, DropdownItem } from '@enso-ui/dropdown/bulma';
 import DropdownIndicator from '@enso-ui/dropdown-indicator';
 
 import {
-    VueForm, EnsoForm, FormField,FormFieldGroup,  Action, DateField, InputField,
+    VueForm, EnsoForm, FormField, FormFieldGroup, Action, DateField, InputField,
     MoneyField, SelectField, SwitchField, TextareaField, TimeField,
 } from '@enso-ui/forms/bulma';
 
@@ -39,6 +39,8 @@ import Loader from '@enso-ui/loader/bulma';
 import { Modal, ModalCard } from '@enso-ui/modal/bulma';
 
 import Money from '@enso-ui/money';
+
+import Tree from '@enso-ui/orderable-trees/bulma';
 
 import ProgressBar from '@enso-ui/progress-bar';
 
@@ -82,7 +84,7 @@ export {
     InfoPanel, CheckboxManager, CheckboxItems, Confirmation, Datepicker, EnsoDatepicker, Divider,
     Dropdown, DropdownItem, DropdownIndicator, VueForm, EnsoForm, FormField, FormFieldGroup, Action,
     DateField, InputField, MoneyField, SelectField, SwitchField, TextareaField, TimeField, Loader, Modal,
-    ModalCard, ProgressBar, ProgressCircle, VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Toastr,
+    ModalCard, ProgressBar, ProgressCircle, VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Tree, Toastr,
     ToastrPlugin, TreeView, Typeahead, EnsoTypeahead, ScrollToTop, VueSwitch, VueSelect,
     EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
     EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoFilter,
