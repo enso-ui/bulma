@@ -45,6 +45,7 @@
     "@enso-ui/orderable-trees": "^1.0.2",
     "@enso-ui/progress-bar": "^1.0",
     "@enso-ui/progress-circle": "^1.0",
+    "@enso-ui/progress-indicator": "^1.0",
     "@enso-ui/quick-view": "^2.0",
     "@enso-ui/scroll-to-top": "^2.0",
     "@enso-ui/select": "^2.0",

@@ -46,6 +46,8 @@ import ProgressBar from '@enso-ui/progress-bar';
 
 import ProgressCircle from '@enso-ui/progress-circle';
 
+import ProgressIndicator from '@enso-ui/progress-indicator';
+
 import QuickView from '@enso-ui/quick-view/bulma';
 
 import ScrollToTop from '@enso-ui/scroll-to-top/bulma';
