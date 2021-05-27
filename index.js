@@ -46,7 +46,7 @@ import ProgressBar from '@enso-ui/progress-bar';
 
 import ProgressCircle from '@enso-ui/progress-circle';
 
-import ProgressIndicator from '@enso-ui/progress-indicator';
+import { ProgressIndicator, EnhancedProgressIndicator } from '@enso-ui/progress-indicator';
 
 import QuickView from '@enso-ui/quick-view/bulma';
 
@@ -90,5 +90,5 @@ export {
     Tree, Toastr, ToastrPlugin, TreeView, Typeahead, EnsoTypeahead, ScrollToTop, VueSwitch, VueSelect,
     EnsoSelect, IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
     EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoFilter,
-    SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, QuickView,
+    SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader, Uploader, QuickView, EnhancedProgressIndicator, 
 };
