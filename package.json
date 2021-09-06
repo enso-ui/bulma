@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/bulma",
-  "version": "4.0.8",
+  "version": "4.0.9",
   "description": "Aggregator for enso-ui bulma components",
   "main": "index.js",
   "scripts": {
@@ -56,6 +56,7 @@
     "@enso-ui/tree-view": "^1.0",
     "@enso-ui/typeahead": "^2.0",
     "@enso-ui/uploader": "^1.0",
+    "@enso-ui/users": "^1.0.15",
     "bulma": "^0.9.0"
   },
   "devDependencies": {
