@@ -72,8 +72,8 @@ import Avatar from '@enso-ui/users/src/bulma/pages/users/components/Avatar.vue';
 import VueSwitch from '@enso-ui/switch/bulma';
 
 import {
-    IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
-    EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoFilter,
+    IntervalFilter, InputFilter, DateFilter, EnsoIntervalFilter,
+    EnsoDateFilter, BooleanFilter, VueFilter, EnsoFilter,
     SelectFilter, EnsoSelectFilter, EnsoInputFilter, ToggleFilter, EnsoToggleFilter,
 } from '@enso-ui/filters/bulma';
 
@@ -89,8 +89,8 @@ export {
     TextareaField, TimeField, Loader, Modal, ModalCard, ProgressBar, ProgressCircle,
     ProgressIndicator, VueTable, EnsoTable, Tab, Tabs, EnsoTabs, Money, Tree, Toastr, ToastrPlugin,
     TreeView, Typeahead, EnsoTypeahead, ScrollToTop, VueSwitch, VueSelect, EnsoSelect,
-    IntervalFilter, InputFilter, DateFilter, DateIntervalFilter, EnsoIntervalFilter,
-    EnsoInputFilter, EnsoDateFilter, EnsoDateIntervalFilter, BooleanFilter, VueFilter, EnsoFilter,
+    IntervalFilter, InputFilter, DateFilter, EnsoIntervalFilter,
+    EnsoInputFilter, EnsoDateFilter, BooleanFilter, VueFilter, EnsoFilter,
     ToggleFilter, EnsoToggleFilter, SelectFilter, EnsoSelectFilter, FilterState, EnsoUploader,
     Uploader, QuickView, EnhancedProgressIndicator,
 };
